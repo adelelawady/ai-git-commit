@@ -1,10 +1,17 @@
 # AI Git Commit Message Generator 🤖 ✨
 
+![Python Version](https://img.shields.io/badge/python-3.x-blue?style=flat-square&logo=python)
+![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+![Status](https://img.shields.io/badge/status-active-success?style=flat-square)
+![AI Models](https://img.shields.io/badge/AI%20Models-Ollama%20%7C%20Hyperbolic-orange?style=flat-square&logo=openai)
+
 This repository contains two scripts that automatically generate meaningful Git commit messages using AI. Both scripts analyze your code changes and create descriptive commit messages, with optional emoji support.
 
 ## Scripts Overview 📜
 
 ### 1. Generate.py (Ollama Version) 🐳
+![Ollama](https://img.shields.io/badge/Ollama-local%20AI-blue?style=flat-square&logo=docker)
+
 Uses Ollama's local AI model to generate commit messages.
 
 **Features:**
@@ -21,6 +28,8 @@ Uses Ollama's local AI model to generate commit messages.
 - qwen2.5-coder:3b model in Ollama
 
 ### 2. Generate_Hyperbolic.py (Cloud Version) ☁️
+![Hyperbolic](https://img.shields.io/badge/Hyperbolic-cloud%20API-brightgreen?style=flat-square&logo=cloud)
+
 Uses Hyperbolic's cloud API for commit message generation.
 
 **Features:**
