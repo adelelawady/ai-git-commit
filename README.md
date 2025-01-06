@@ -102,7 +102,7 @@ python generate.py
 ```
 
 
-##Using Hyperbolic version
+## Using Hyperbolic version
 ```bash
  python generate_hyperbolic.py
 ```
