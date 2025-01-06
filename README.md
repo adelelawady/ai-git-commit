@@ -47,8 +47,32 @@ Uses Hyperbolic's cloud API for commit message generation.
 
 ## Installation 🛠️
 
-1. Install required packages:   
+### Option 1: Install all dependencies
+```bash
+# Windows
+pip install -r .\requirements.txt
 
+# Linux/Mac
+pip install -r requirements.txt
+```
+
+### Option 2: Install in virtual environment (recommended)
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# Windows
+.\venv\Scripts\activate
+# Linux/Mac
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### Option 2: Install individual packages
+1. Install required packages:   
 ```bash
 pip install gitpython watchdog
 ```
@@ -62,8 +86,6 @@ pip install ollama-python
 ```bash
 pip install requests
 ```
-
-
 
 ## Usage 🚀
 
@@ -164,5 +186,5 @@ MIT License
 
 
 ```
-python .\generate_hyperbolic.py --watch --staged --emoji --delay 2 -p C:\Users\adel\KONSOL\Projects\KonsolERP\konsolAppCore
+python .\generate_hyperbolic.py --watch --staged --emoji --delay 2 -p /path/to/proj
 ```
